@@ -1,0 +1,16 @@
+{
+  // Enforce a maximum line length for readability
+  "MD013": { "line_length": 80 },
+  // Use atx style headers
+  "MD003": { "style": "atx" },
+  // Ensure consistent list style
+  "MD004": { "style": "consistent" },
+  // No empty links
+  "MD042": true,
+  // Allow inline HTML
+  "MD033": false,
+  // Blank lines around headers
+  "MD022": true,
+  // Blank lines around lists
+  "MD032": true
+}
