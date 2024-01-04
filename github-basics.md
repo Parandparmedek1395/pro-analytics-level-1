@@ -7,31 +7,83 @@
 Typically as analysts we work on a team.
 A team needs a place to store the project that everyone can access.
 It also needs to be safe from the outside.
-We want to track all the changes by user and datetime so we can trace the evolution of the project and revert back to an older version if needed.
+We want to track all changes by user and datetime so we can trace the
+ evolution of the project and revert back to an older version as needed.
 
 ## Introduction
 
-GitHub is used by over 65 million developers to store and share code projects of all kinds.
-Becoming part of this community and learning to use Git are key skills that can make you easier to onboard and more productive on the job.
+GitHub is used by over 65 million developers to store and share code projects.
+Becoming part of this community and learning to use Git are key skills
+ that can make us easier to onboard and more productive on the job.
+
+You'll need an **email**.
+I use a permanent personal email for most GitHub work,
+ rather than a work or school account (which may be temporary).
+Your email will not be made public.
+
+You'll create a GitHub **username**.
+Your username will be public.
+Your username can be anonymous (e.g., 'analystextraordinaire') or
+ publicly associated with you.
+ For example, I use 'denisecase'.
+ Your username is part of the URL (web address) to all your GitHub projects.
 
 ## Repositories
 
-A repository is a place to store a project.
+With GitHub, developers can create their own repositories,
+which are essentially folders that contain their code, documentation,
+and other files related to a specific project.
+They can also fork other people's repositories to create their own copies,
+which they can then modify and contribute back to the original repository.
+This allows for easy collaboration and code sharing among developers.
+
+Each project lives in a GitHub repository (called 'repo' for short)
+  in the 'cloud' (a distributed group of machines).
+
+Git (the system) keeps track of committed changes to an evolving project.
+The GitHub repo can be kept in sync with a git repo on your local machine.
+For example:
+
+- If a GitHub repo is named **datafun-01-getting-started**.
+- On my machine, it's in my **Documents/datafun-01-getting-started** folder.
+
+## GitHub Development Environment
+
+GitHub has a built-in development environment called GitHub Codespaces.
+You can use an editor similar to VS Code, except it's all in the cloud,
+ using your browser.
+You can get started and make changes to a project quickly and easily.
+
+To enter the development environment, click the green Code button
+ and select "Open with Codespaces".
+
+## Recruiters and GitHub
+
+Recruiters may look at GitHub and LinkedIn profiles.
+It can be helpful to show your skills using modern tools.
+Be courageous.
+The best way to learn is by doing,
+ and don't be too concerned about making mistakes.
+Git mistakes and do-overs are common getting started.
+Learning to fix issues is a key skill in data analytics.
+Keep and share your latest, most useful, and best work in GitHub.
+Ensure each repository has a meaningful README to explain the project's
+ purpose, setup, and usage.
 
 ## Public vs. Private Repositories
 
-At work, they might keep things private - might use GitLab or BitBucket to store projects privately. Most modern companies use something quite similar to perform this role.
+At work, companies might keep projects private and might use GitLab or BitBucket
+ to store projects.
+ Most modern companies use something similar to perform this role.
 Open-source projects are often stored on GitHub and can be worked on by anyone.
-Getting familiar with GitHub is a great way to get started with professional projects for data analytics.
+Getting familiar with GitHub is a great way to get started with
+ professional projects for data analytics.
 
 ## GitHub Copilot
 
 GitHub Copilot is an AI assistant to help write code.
 
-## GitHub Development Environment
+## Free Stuff for Students
 
-GitHub has a built-in development environment called GitHub Codespaces.
-You can use an editor similar to VS Code, except it's all in the cloud - accessible via your browser.
-You can get started and make changes to a project quickly and easily.
-
-To enter the development environment, click the green Code button and select Open with Codespaces.
+Students can get access to GitHub Copilot and more
+ with the [GitHub Student Developer Pack](https://education.github.com/pack).
