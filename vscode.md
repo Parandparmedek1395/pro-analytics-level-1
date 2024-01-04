@@ -58,7 +58,7 @@ To change the default terminal in VS Code, you can follow these simple steps:
 1. Type Terminal: Select Default Profile.
 1. You'll see a list of available terminal options.
 1. Select the one you prefer to use as your default.
-1. Once selected, this terminal type will be used by default when you open a new terminal in VS Code.
+1. The default type should now appear when you open a new terminal in VS Code.
 
 ## Alternatives
 
@@ -67,10 +67,10 @@ serve the same purpose.
 Depending on the team you join, they may use a different tool.
 Each one can take a while to learn, but they have similar features and capabilities.
 
-- **Jupyter Notebook**: A web-based interactive development environment. Although it can be run from the terminal on your machine, many people will run Jupyter Notebooks in VS Code.
-- **PyCharm**: A full-featured IDE for Python. It's a great choice for beginners and advanced users alike.
-- **Spyder**: A Python IDE designed for scientific computing. It's a great choice for data science and machine learning.
-- **IDLE**: Your Python installation comes with IDLE, a basic IDE. It works, but you'll likely want to upgrade to a more powerful tool.
+- **Jupyter Notebook**: A web-based interactive development environment.
+- **PyCharm**: A full-featured IDE for Python.
+- **Spyder**: A Python IDE designed for scientific computing.
+- **IDLE**: Python comes with IDLE, a basic IDE.
 
 ## Resources
 

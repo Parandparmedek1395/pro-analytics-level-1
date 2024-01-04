@@ -16,17 +16,19 @@ Click Add file / Create New
 
 ![Add file](images/github/github-add-file-1.png)
 
-You'll see something like this.  You'll need to Name your file... and paste in the contents from your online IDE.
+You'll see something like this.
+You'll need to Name your file... and paste in the contents from your online IDE.
 
 ![New file](images/github/github-add-file-2.png)
 
-Name the file utils_yourname.py or whatever is appropriate or required for your project.
+Name the file utils_yourname.py or whatever is required for your project.
 
 Copy and paste your code to complete the contents of the file.
 
 ![Name file](images/github/github-add-file-3.png)
 
-After pasting, click "Commit changes", the green button. Provide a useful commit message.
+After pasting, click "Commit changes", the green button.
+Provide a useful commit message.
 The message should be describe the changes in present tense.
 Click Commit changes.
 
@@ -40,6 +42,6 @@ Click refresh to see the changes.
 After refreshing the page, you'll see your project with the new file.
 
 The file name is a hyperlink.
- Click it to view your project code, stored safely in the cloud and ready to share.
+Click it to view your project code, stored safely in the cloud and ready to share.
 
 ![Verify](images/github/github-add-file-6.png)
