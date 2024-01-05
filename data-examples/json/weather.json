@@ -1,0 +1,21 @@
+{
+  "location": {
+    "city": "San Francisco",
+    "country": "USA",
+    "coordinates": {"latitude": 37.7749, "longitude": -122.4194}
+  },
+  "weather": {
+    "temperature": 15,
+    "humidity": 72,
+    "condition": "Cloudy",
+    "wind_speed": 5.2,
+    "wind_direction": "NW"
+  },
+  "forecast": [
+    {"day": "Monday", "high": 17, "low": 12, "condition": "Partly Cloudy"},
+    {"day": "Tuesday", "high": 19, "low": 13, "condition": "Sunny"},
+    {"day": "Wednesday", "high": 18, "low": 14, "condition": "Rain"},
+    {"day": "Thursday", "high": 16, "low": 11, "condition": "Fog"},
+    {"day": "Friday", "high": 15, "low": 10, "condition": "Windy"}
+  ]
+}

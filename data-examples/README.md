@@ -37,7 +37,9 @@ Sources include:
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 - [CSV Files](https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html)
 - [AdventureWorks](https://github.com/nuitsjp/AdventureWorks-for-SQLite/tree/master/Source)
+- [Pandas Tutorial](https://github.com/LearnDataSci/articles/tree/master/Python%20Pandas%20Tutorial%20A%20Complete%20Introduction%20for%20Beginners)
 - [Example: deniro.csv](./csv/deniro.csv)
+- [Example: IMDB-Movie-Data.csv](./csv/IMDB-Movie-Data.csv)
 
 ### .txt (Text File)
 
