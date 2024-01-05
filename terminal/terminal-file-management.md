@@ -27,7 +27,7 @@ These commands should work in both Windows PowerShell and MacOS/Linux Terminal.
   - `mkdir new_folder`: Creates a new folder named `new_folder`.
 - **`rmdir` (Remove Directory)**: Deletes an empty directory.
   - `rmdir old_folder`: Removes the folder named `old_folder`.
-- **`touch`**: Creates a new, empty file.
+- **`touch`**: Creates a new, empty file. In PowerShell, use **`ni`** or `New-Item`
   - `touch file.txt`: Creates a new file named `file.txt`.
 - **`rm` (Remove)**: Deletes files or directories.
   - `rm file.txt`: Removes `file.txt`.
