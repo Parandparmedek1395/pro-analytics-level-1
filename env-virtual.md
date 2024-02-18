@@ -72,11 +72,13 @@ Open a new terminal window and make your local .venv folder the active environme
 
 ### Windows Skill: Install packages into the virtual environment.
 
-Explanation: The command uses py to launch Python, -m pip to to access the pip package manager,
-and employs install -r requirements.txt to install packages listed one per line in the requirements.txt file
-into the active virtual environment.
+Explanation: Each command uses py to launch Python, -m pip to to access the pip package manager,
+and employs install to install packages. The --upgrade flag will upgrade key packages (e.g., pip, wheel) 
+and the -r requirements.txt will install packages (listed one per line) in the requirements.txt file
+into the active virtual environment. 
 
 ```shell
+py -m pip install --upgrade pip wheel
 py -m pip install -r requirements.txt
 ```
 
@@ -122,11 +124,13 @@ source .venv/bin/activate
 
 ### Mac/Linux Skill: Install packages into the virtual environment.
 
-Explanation: The command uses python3 to launch Python, -m pip to to access the pip package manager,
-and employs install -r requirements.txt to install packages listed one per line in the requirements.txt file
-into the active virtual environment.
+Explanation: Each command uses python3 to launch Python, -m pip to to access the pip package manager,
+and employs install to install packages. The --upgrade flag will upgrade key packages (e.g., pip, wheel) 
+and the -r requirements.txt will install packages (listed one per line) in the requirements.txt file
+into the active virtual environment. 
 
 ```shell
+python3 -m pip install --upgrade pip wheel
 python3 -m pip install -r requirements.txt
 ```
 
