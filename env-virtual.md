@@ -148,11 +148,24 @@ rm -rf .venv
 ```
 -----
 
-## Ignore .venv Folder in Project Repository
+## Related Project Files
 
-Create a file named .gitignore (the name is important!) and add an entry to the file so that .venv is not committed to the GitHub repo.
+## Project .gitignore file
+
+In the root project folder, create a file named .gitignore (the name is important!) and add an entry to the file so that .venv is not committed to the GitHub repo.
 Someone is tracking all that code development - we do not need to do so.
 
 ```
 .venv/
 ```
+
+## Project requirements.txt file
+
+In the root project folder, many projects have a requirements.txt file with a list of packages needed. Install after adding packages to requirements.txt.
+Once all the packages have been insalled, you can create a specific requirements.txt with the pip freeze redirect command. 
+
+## Project README.md file
+
+In the root project folder, most all projects will have a README.md file. 
+Record your own workflow and commands in your README.md file. 
+
