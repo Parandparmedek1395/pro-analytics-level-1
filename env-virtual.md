@@ -138,10 +138,10 @@ deactivate the virtual environment if you want - it will also happen when you cl
 When the project is complete, you can delete the virtual environment directory when no longer needed (it's large).
 You can always recreate it as needed.
 
-````shell
+```shell
 deactivate
 rm -rf .venv
-``
+```
 -----
 
 ## Ignore .venv Folder in Project Repository
