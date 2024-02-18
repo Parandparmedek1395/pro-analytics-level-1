@@ -36,51 +36,146 @@ You can create the folder anywhere on your machine, but again, we'll follow the 
 
 ## Calling Python Commands
 
-We'll call venv and pip commands from the terminal window.
-When calling them, it's a good idea to preface the command with `python -m` to ensure the command is called from the correct Python installation.
+We'll call venv and pip commands from a terminal window. The commands are slightly different depending on your operating system.
 
-## Windows Commands
+## Creating a Project Virtual Environment on a Windows Machine
 
-Setting up a project virtual environment on Windows.
-Open a PowerShell terminal window and navigate to the project folder.
+Open a **PowerShell** terminal window and navigate to the project folder.
+Run all commands from the root project folder. 
 
-```powershell
-# Create a virtual environment named .venv.
-python -m venv .venv
-# Activate the virtual environment.
-.venv\Scripts\activate
-# Install packages into the virtual environment.
-python -m pip install -r requirements.txt
+### Windows Skill: Create a virtual environment in a folder named .venv. 
+
+Explanation: The command py -m venv .venv uses py to launch Python,
+-m venv to invoke the venv module,
+and .venv specifies the directory name for the new virtual environment.
+
+When: Generally, we run this just once - when you start the project to create the .venv folder. 
+We keep this project virtual environment while the project is active. 
+
+
+```shell
+py -m venv .venv
 ```
 
-When you're done working on the project:
+### Windows Skill: Activate the virtual environment 
 
-````powershell
-# Deactivate the virtual environment.
+Explanation: Run the activate script in the new .venv/Scripts folder. 
+
+When: Generally, run this each time you edit the project. 
+Open a new terminal window and make your local .venv folder the active environment. 
+
+```shell
+.venv\Scripts\activate
+```
+
+### Windows Skill: Install packages into the virtual environment.
+
+Explanation: The command uses py to launch Python, -m pip to to access the pip package manager,
+and employs install -r requirements.txt to install packages listed one per line in the requirements.txt file
+into the active virtual environment.
+
+```shell
+py -m pip install -r requirements.txt
+```
+
+### Windows Skill: When Done Editing or the Project is Complete.
+
+When you're done working on the project, you can 
+deactivate the virtual environment if you want - it will also happen when you close the terminal or the editor. 
+
+When the project is complete, you can delete the virtual environment directory when no longer needed (it's large).
+You can always recreate it. 
+
+```shell
 deactivate
-# Delete the virtual environment directory when no longer needed (it's large)
+rm -Recurse -Force .venv
+```
+
+### Mac/Linux Skill: Create a virtual environment in a folder named .venv. 
+
+Explanation: The command python3 -m venv .venv uses python3 to launch Python,
+-m venv to invoke the venv module,
+and .venv specifies the directory name for the new virtual environment.
+
+When: Generally, we run this just once - when you start the project to create the .venv folder. 
+We keep this project virtual environment while the project is active. 
+
+
+```shell
+python3 -m venv .venv
+```
+
+### Mac/Linux Skill: Activate the virtual environment 
+
+Explanation: Run the activate script in the new .venv/Scripts folder. 
+
+When: Generally, run this each time you edit the project. 
+Open a new terminal window and make your local .venv folder the active environment. 
+
+```shell
+.venv\Scripts\activate
+```
+
+### Mac/Linux Skill: Install packages into the virtual environment.
+
+Explanation: The command uses py to launch Python, -m pip to to access the pip package manager,
+and employs install -r requirements.txt to install packages listed one per line in the requirements.txt file
+into the active virtual environment.
+
+```shell
+python3 -m pip install -r requirements.txt
+```
+
+### Mac/Linux Skill: When Done Editing or the Project is Complete.
+
+When you're done working on the project, you can 
+deactivate the virtual environment if you want - it will also happen when you close the terminal or the editor. 
+
+When the project is complete, you can delete the virtual environment directory when no longer needed (it's large).
+You can always recreate it. 
+
+````shell
+deactivate
 rm -Recurse -Force .venv
 ``
 
-## Mac/Linux Commands
+## Creating a Project Virtual Environment on a Mac/Linux Machine
 
-Setting up a project virtual environment on Mac/Linux.
-Open a terminal window and navigate to the project folder.
+### Mac/LInux Skill: Create a virtual environment in a folder named .venv. 
 
-```bash
-# Create a virtual environment named .venv.
-python3 -m venv .venv
-# Activate the virtual environment.
+Explanation: The command python3 -m venv .venv uses python3 to launch Python,
+-m venv to invoke the venv module,
+and .venv specifies the directory name for the new virtual environment.
+
+
+```shell
+py -m venv .venv
+```
+
+### Mac/Linux Skill: Activate the virtual environment 
+
+Explanation: Run the activate script in the new .venv/Scripts folder. 
+
+```shell
 source .venv/bin/activate
-# Install packages into the virtual environment.
-python -m pip install -r requirements.txt
-````
+```
 
-When you're done working on the project:
+### Mac/Linux Skill: Install packages into the virtual environment.
 
-```base
-# Deactivate the virtual environment.
+Explanation: The command uses py to launch Python, -m pip to to access the pip package manager,
+and employs install -r requirements.txt to install packages listed one per line in the requirements.txt file
+into the active virtual environment.
+
+```shell
+py -m pip install -r requirements.txt
+```
+
+When you're done working on the project, you can 
+deactivate the virtual environment and
+delete the virtual environment directory when no longer needed (it's large).
+You can always recreate it. 
+
+```shell
 deactivate
-# Delete the virtual environment when no longer needed (it's large)
 rm -rf .venv
 ```
