@@ -1,4 +1,4 @@
-# GitHub Pages: Publish a Client-side Website using Parkdown files
+# GitHub Pages: Publish a Client-side Website using Markdown files
 
 This guide shows how to publish a website using GitHub Pages, using Markdown file. 
 It's a straightforward way to share your projects or portfolio online.
