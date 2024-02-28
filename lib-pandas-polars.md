@@ -10,13 +10,12 @@ Polars is a newer Rust-based library faster than Pandas for many operations.
 
 ## Introduction
 
-Both provide a DataFrame class for working with data in a tabular format, e.g., spreadsheets.
-
-## DataFrames
-
-Both Pandas and Polars provide a DataFrame class for working with tabular data.
+Both Pandas and Polars provide a DataFrame class for working with tabular data, e.g. spreadsheets, csv files.
 
 - **DataFrame**: A two-dimensional tabular data structure with labeled axes.
+- Each record is a row, and each field is a column.
+- To get a list of the column names, use `df.columns`.
+- To get a list of the data types, use `df.dtypes`.
 
 ## Data Loading
 
@@ -41,6 +40,16 @@ Polars:
 
 - `df.head()`, `df.tail()`, `df.describe()`, `df.schema()` for similar purposes.
  The methods are quite parallel, with minor differences in output details.
+
+## Data Visualization and Analysis
+
+Pandas provides methods for visualizing DataFrame data to help understand distributions and relationships.
+
+- **Histograms**: Show the distribution of values. Use `df.hist()` to get a histogram for each numeric column.
+- **Box Plots**: Show the distribution and identify any potential outliers. Use `df.boxplot()` to get a box plot for each numeric column.
+- **Correlation Matrix**: Show the correlation coefficients between variables. Use `df.corr()` to  identify relationships between variables.
+
+For visualizations with Polars, convert to a Pandas DataFrame or use visualization libraries like Matplotlib, Seaborn, or Plotly.
 
 ## Data Manipulation
 
