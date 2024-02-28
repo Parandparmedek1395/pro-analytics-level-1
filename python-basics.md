@@ -70,14 +70,14 @@ You must add human-level value to the process, or it's cost effective to use the
 
 ## PYTHON FOR DATA SCIENCE, AI & DEVELOPMENT (IBM Video)
 
-[7:35:08 Types](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=27308s)
-[7:38:11 Expressions and Variables](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=27491s)
+- [7:35:08 Types](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=27308s)
+- [7:38:11 Expressions and Variables](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=27491s)
 
-[8:02:39 Conditions and Branching](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=28959s)
-[8:12:56 Loops](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=29576s)
-[8:19:42 Functions](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=29982s)
-[8:33:14 Exception Handling](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=30794s)
-[8:37:03 Objects and Classes](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=31023s)
+- [8:02:39 Conditions and Branching](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=28959s)
+- [8:12:56 Loops](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=29576s)
+- [8:19:42 Functions](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=29982s)
+- [8:33:14 Exception Handling](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=30794s)
+- [8:37:03 Objects and Classes](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=31023s)
 
-[9:18:21 Simple APIs](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=33501s)
-[9:28:41 REST APIs Webscraping and Working with Files](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=34121s)
+- [9:18:21 Simple APIs](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=33501s)
+- [9:28:41 REST APIs Webscraping and Working with Files](https://www.youtube.com/watch?v=1PAy6d16ADQ&t=34121s)

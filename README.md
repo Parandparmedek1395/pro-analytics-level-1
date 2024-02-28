@@ -13,8 +13,10 @@
 ### Git and GitHub
 
 - [Git Basics](git-basics.md)
-- [GitHub: Adding a File](github-add-file.md)
 - [GitHub Basics](github-basics.md)
+- [GitHub Repositories](github-repos.md)
+- [GitHub: Adding a File](github-add-file.md)
+- [GitHub Pages](github-pages.md)
 
 ### Python
 

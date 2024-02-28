@@ -42,6 +42,11 @@ Invoke-WebRequest https://raw.githubusercontent.com/denisecase/datafun-01/main/m
 Invoke-WebRequest https://raw.githubusercontent.com/denisecase/datafun-01/main/myname-utils.py -OutFile  myname-utils.py
 ```
 
+Here is a more advanced example of **curl** with generative AI (e.g., ChatGPT).
+Knowing the curl command exists is a great start; you can learn more as needed.
+
+- [Use Azure OpenAI REST API](https://learn.microsoft.com/en-us/training/modules/build-language-solution-azure-openai/3-use-openai-rest)
+
 ## Resources
 
 - [curl Documentation](https://curl.se/docs/)

@@ -28,24 +28,29 @@ Your username can be anonymous (e.g., 'analystextraordinaire') or
  For example, I use 'denisecase'.
  Your username is part of the URL (web address) to all your GitHub projects.
 
-## Repositories
-
-With GitHub, developers can create their own repositories,
-which are essentially folders that contain their code, documentation,
-and other files related to a specific project.
-They can also fork other people's repositories to create their own copies,
-which they can then modify and contribute back to the original repository.
-This allows for easy collaboration and code sharing among developers.
+## Project Repository
 
 Each project lives in a GitHub repository (called 'repo' for short)
   in the 'cloud' (a distributed group of machines).
+  
+With GitHub, developers can create a repository,
+a folder or location that contains their code, documentation,
+and other files related to a specific project.
+
+## Keeping GitHub Repo in Sync With Local Project Repo
 
 Git (the system) keeps track of committed changes to an evolving project.
-The GitHub repo can be kept in sync with a git repo on your local machine.
+A GitHub repo can be kept in sync with a git repo on your local machine.
 For example:
 
 - If a GitHub repo is named **datafun-01-getting-started**.
 - On my machine, it's in my **Documents/datafun-01-getting-started** folder.
+
+## Forking a Repository
+
+Developers can fork (copy) a repo from a different account to create their own copy of the repo.
+This makes it easy to modify the repo and contribute back to the original project repo.
+This workflow enables easy collaboration and code sharing among developers.
 
 ## GitHub Development Environment
 
