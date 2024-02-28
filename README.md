@@ -41,8 +41,9 @@
 
 ### Python External Libraries
 
-- [Library: Matplotlib](lib-matplotlib.md)
+- [Library: Pandas and Polars](lib-pandas-polars.md)
 - [Library: Pandas and NumPy](lib-pandas-numpy.md)
+- [Library: Matplotlib](lib-matplotlib.md)
 - [Library: Seaborn](lib-seaborn.md)
 
 ### SQL
