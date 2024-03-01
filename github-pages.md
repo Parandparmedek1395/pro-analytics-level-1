@@ -8,7 +8,7 @@ It's a straightforward way to share your projects or portfolio online.
 1. **Log in** to GitHub and navigate to your repositories.
 2. Click the **New** button to create a new repository.
 3. **Name** your repository (e.g. cintel-01-pages).
-4. **Initialize** the repository with a README.
+4. Important: **Initialize** the repository with a default README.md (always!)
 5. Find more instructions at [github-repos.md](ithub-repos.md).
 
 ## Step 2: Prepare Your Website
@@ -25,12 +25,12 @@ It's a straightforward way to share your projects or portfolio online.
 ## Step 3: Enable GitHub Pages
 
 1. Go to your repository's **Settings**.
-2. Scroll down to the **GitHub Pages** section.
+2. Scroll down to the **Pages** section on the left hand side. 
 3. **Source**: Select the branch you want to publish (the branch name should be `main`).
 4. **Folder**: Choose the root folder, later, this could be changed to the docs folder, depending on where your files are.
-5. Click **Save**, and GitHub will automatically generate a URL (web location) for your site.
+5. Click **Save**, and wait patiently. GitHub will automatically generate a URL (web location) for your site at the top of the Settings / Pages section.
 
-## Step 4: Customize Your Website
+## Step 4: Optional: Customize Your Website
 
 - **Theme**: In the GitHub Pages section, you can select a theme for your website by clicking **Choose a theme**.
 
