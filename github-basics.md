@@ -92,3 +92,8 @@ GitHub Copilot is an AI assistant to help write code.
 
 Students can get access to GitHub Copilot and more
  with the [GitHub Student Developer Pack](https://education.github.com/pack).
+
+## GitHub CLI (Terminal Commands)
+
+Recommended: Work fast with the official GitHub CLI (command-line interface), gh. 
+Install it from [cli.github.com](https://cli.github.com/).
