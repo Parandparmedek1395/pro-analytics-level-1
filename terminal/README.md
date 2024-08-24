@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [How to Open a Terminal in Your Documents Folder](open-terminal-in-Documents.md)
 - [About Terminal](terminal-about.md)
 - [Terminal and Bash](terminal-bash.md)
 - [Terminal Environment Variables](terminal-environment-variables.md)
