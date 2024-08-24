@@ -1,4 +1,4 @@
-# Open a Terminal in Your Documents Folder
+# How To Open a Terminal in Your Documents Folder
 
 Every analyst should know some basic terminal commands and how to create a project folder. 
 These skills lay the foundation for file system navigation and manipulation.
