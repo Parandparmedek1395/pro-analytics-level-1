@@ -1,4 +1,4 @@
-# Professional Analytics - Level 1
+git clone https://github.com/yourusername/yourrepository.git# Professional Analytics - Level 1
 
 [Professional Analytics](https://github.com/denisecase/pro-analytics)
 
